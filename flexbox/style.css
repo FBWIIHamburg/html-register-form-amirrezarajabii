@@ -1,0 +1,14 @@
+.Container{
+    display: flex;
+    background-color: gray;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.Container>div{
+    width: 100px;
+    height: 100px;;
+    margin: 10px;
+    text-align: center;
+    font-size: 50px;
+}
